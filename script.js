@@ -799,33 +799,6 @@ function toggleFullScreen() {
   }
 }
 
-	function togglePlay() {
-  var myAudio = document.getElementById("myAudio");
-  return myAudio.paused ? myAudio.play() : myAudio.pause();
-};
-
-$(document).ready(function() {
-  $("#play-button-container").click(function() {
-    $("#play-button-container").toggleClass("new");
-  });
-});
-
-window.open(
-  'https://open.spotify.com/playlist/3LoRBtgXSlwvpiROHRcxv6?si=0574ac986f4c4c46&nd=1',
-  '_blank' // <- This is what makes it open in a new window.
-);
-
-	function togglePlay2() {
-  var myAudio2 = document.getElementById("myAudio2");
-  return myAudio2.paused ? myAudio2.play() : myAudio2.pause();
-};
-
-$(document).ready(function() {
-  $("#play-button-container-two").click(function() {
-    $("#play-button-container-two").toggleClass("new2");
-  });
-});
-
 	function toggleFullScreen1() {
   if (vid.requestFullscreen) {
       if (document.fullScreenElement) {
@@ -859,28 +832,7 @@ $(document).ready(function() {
       alert("Fullscreen API is not supported");
       document.getElementById('controlfullscreen').disabled = true;
   }
-}
-
-	window.open(
-  'https://open.spotify.com/playlist/5mtffDvFfCrMaBlz8UFdOM?si=ac95555d01be43eb&nd=1',
-  '_blank' // <- This is what makes it open in a new window.
-);
-
-	window.open(
-  'https://open.spotify.com/playlist/1GOJMmjfkv6qhnboHBHCnj?si=59026d6c9ca14602&nd=1',
-  '_blank' // <- This is what makes it open in a new window.
-);
-
-	function togglePlay3() {
-  var myAudio3 = document.getElementById("myAudio3");
-  return myAudio3.paused ? myAudio3.play() : myAudio3.pause();
-};
-
-$(document).ready(function() {
-  $("#play-button-container-three").click(function() {
-    $("#play-button-container-three").toggleClass("new3");
-  });
-});
+} 
 
 	function toggleFullScreen2() {
   if (vid2.requestFullscreen) {
@@ -916,44 +868,6 @@ $(document).ready(function() {
       document.getElementById('controlfullscreen').disabled = true;
   }
 }
-
-	function togglePlay4() {
-  var myAudio4 = document.getElementById("myAudio4");
-  return myAudio4.paused ? myAudio4.play() : myAudio4.pause();
-};
-
-$(document).ready(function() {
-  $("#play-button-container-four").click(function() {
-    $("#play-button-container-four").toggleClass("new4");
-  });
-});
-
-	window.open(
-  'https://open.spotify.com/playlist/3U41OIYACDl8CBkFdM7GIy?si=fc56405e7ec84906&nd=1',
-  '_blank' // <- This is what makes it open in a new window.
-);
-
-	function togglePlay5() {
-  var myAudio5 = document.getElementById("myAudio5");
-  return myAudio5.paused ? myAudio5.play() : myAudio5.pause();
-};
-
-$(document).ready(function() {
-  $("#play-button-container-five").click(function() {
-    $("#play-button-container-five").toggleClass("new5");
-  });
-});
-
-	function togglePlay6() {
-  var myAudio6 = document.getElementById("myAudio6");
-  return myAudio6.paused ? myAudio6.play() : myAudio6.pause();
-};
-
-$(document).ready(function() {
-  $("#play-button-container-six").click(function() {
-    $("#play-button-container-six").toggleClass("new6");
-  });
-});
 	
 	function toggleFullScreen3() {
   if (vid3.requestFullscreen) {
@@ -989,18 +903,6 @@ $(document).ready(function() {
       document.getElementById('controlfullscreen').disabled = true;
   }
 }
-
-	function togglePlay7() {
-  var myAudio7 = document.getElementById("myAudio7");
-  return myAudio7.paused ? myAudio7.play() : myAudio7.pause();
-};
-
-$(document).ready(function() {
-  $("#play-button-container-seven").click(function() {
-    $("#play-button-container-seven").toggleClass("new7");
-  });
-});
-
 	
 	function toggleFullScreen4() {
   if (vid4.requestFullscreen) {
@@ -1036,6 +938,161 @@ $(document).ready(function() {
       document.getElementById('controlfullscreen').disabled = true;
   }
 }
+
+// playlists 
+
+window.open(
+  'https://open.spotify.com/playlist/3LoRBtgXSlwvpiROHRcxv6?si=0574ac986f4c4c46&nd=1',
+  '_blank' // <- This is what makes it open in a new window.
+);
+
+  window.open(
+  'https://open.spotify.com/playlist/5mtffDvFfCrMaBlz8UFdOM?si=ac95555d01be43eb&nd=1',
+  '_blank' // <- This is what makes it open in a new window.
+);
+
+  window.open(
+  'https://open.spotify.com/playlist/1GOJMmjfkv6qhnboHBHCnj?si=59026d6c9ca14602&nd=1',
+  '_blank' // <- This is what makes it open in a new window.
+);
+
+  window.open(
+  'https://open.spotify.com/playlist/3U41OIYACDl8CBkFdM7GIy?si=fc56405e7ec84906&nd=1',
+  '_blank' // <- This is what makes it open in a new window.
+); 
+
+// index interviews js 
+
+
+// first
+
+var myAudio = document.getElementById("myAudio");
+var isPlaying = false;
+
+function togglePlay() {
+  isPlaying ? myAudio.pause() : myAudio.play();
+};
+
+myAudio.onplaying = function() {
+  isPlaying = true;
+};
+myAudio.onpause = function() {
+  isPlaying = false;
+};
+
+  // toggle button class on click
+$('#index-play-button-container.one').on('click', function() {
+  $('#index-play-button-img.one, #index-pause-button-img.one').toggle();
+});
+
+// second
+
+var myAudio2 = document.getElementById("myAudio2");
+var isPlaying = false;
+
+function togglePlay2() {
+  isPlaying ? myAudio2.pause() : myAudio2.play();
+};
+
+myAudio2.onplaying = function() {
+  isPlaying = true;
+};
+myAudio2.onpause = function() {
+  isPlaying = false;
+};
+
+  // toggle button class on click
+$('#index-play-button-container.two').on('click', function() {
+  $('#index-play-button-img.two, #index-pause-button-img.two').toggle();
+});
+
+
+// third
+
+var myAudio3 = document.getElementById("myAudio3");
+var isPlaying = false;
+
+function togglePlay3() {
+  isPlaying ? myAudio3.pause() : myAudio3.play();
+};
+
+myAudio3.onplaying = function() {
+  isPlaying = true;
+};
+myAudio3.onpause = function() {
+  isPlaying = false;
+};
+
+  // toggle button class on click
+$('#index-play-button-container.three').on('click', function() {
+  $('#index-play-button-img.three, #index-pause-button-img.three').toggle();
+});
+
+// fourth
+
+var myAudio4 = document.getElementById("myAudio4");
+var isPlaying = false;
+
+function togglePlay4() {
+  isPlaying ? myAudio4.pause() : myAudio4.play();
+};
+
+myAudio4.onplaying = function() {
+  isPlaying = true;
+};
+myAudio4.onpause = function() {
+  isPlaying = false;
+};
+
+  // toggle button class on click
+$('#index-play-button-container.four').on('click', function() {
+  $('#index-play-button-img.four, #index-pause-button-img.four').toggle();
+});
+
+// fifth
+
+var myAudio5 = document.getElementById("myAudio5");
+var isPlaying = false;
+
+function togglePlay5() {
+  isPlaying ? myAudio5.pause() : myAudio5.play();
+};
+
+myAudio5.onplaying = function() {
+  isPlaying = true;
+};
+myAudio5.onpause = function() {
+  isPlaying = false;
+};
+
+  // toggle button class on click
+$('#index-play-button-container.five').on('click', function() {
+  $('#index-play-button-img.five, #index-pause-button-img.five').toggle();
+});
+
+// sixth
+
+var myAudio6 = document.getElementById("myAudio6");
+var isPlaying = false;
+
+function togglePlay6() {
+  isPlaying ? myAudio6.pause() : myAudio6.play();
+};
+
+myAudio6.onplaying = function() {
+  isPlaying = true;
+};
+myAudio6.onpause = function() {
+  isPlaying = false;
+};
+
+  // toggle button class on click
+$('#index-play-button-container.six').on('click', function() {
+  $('#index-play-button-img.six, #index-pause-button-img.six').toggle();
+});
+
+
+// index js 
 
 	$(document).ready(function() { 
  $("#index-button-2").click(function() {
