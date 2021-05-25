@@ -124,7 +124,7 @@
 		<div id="square" class="three"></div>
 
 <div id="audio-player-container">
-			<audio>
+			<audio id="myAudio">
   <source src="assets/interviews/Pur·suit_Angel&Shira_final.mp3"  type="audio/mp3">
 </audio> 
 
@@ -324,7 +324,7 @@
 	</div>
 
 	<div id="audio-player-container" class="second">
-			<audio>
+			<audio id="myAudio2">
   <source src="assets/interviews/Pur·suit_kenya&alex_final 3.27.42 PM.mp3"  type="audio/mp3">
 </audio> 
 
@@ -831,7 +831,7 @@ Rin
 	</div>
 
 	<div id="audio-player-container" class="third">
-			<audio>
+			<audio id="myAudio3">
   <source src="assets/interviews/Pur·suit_Kiy&Jay_final 3.27.42 PM.mp3"  type="audio/mp3">
 </audio> 
 
@@ -1022,7 +1022,7 @@ Rin
 	</div>
 
 		<div id="audio-player-container" class="fourth">
-			<audio>
+			<audio id="myAudio4">
   <source src="assets/interviews/Pur·suit_Auston&Jessie_final 3.27.42 PM.mp3"  type="audio/mp3">
 </audio> 
 
@@ -1244,8 +1244,8 @@ Rin
 	</div>
 
 			<div id="audio-player-container" class="fifth">
-			<audio>
-  <source src="assets/interviews/Pur·suit_Auston&Jessie_final 3.27.42 PM.mp3"  type="audio/mp3">
+			<audio id="myAudio5">
+  <source src="assets/interviews/Pur·suit_Tati&Rahel_final_final.mp3"  type="audio/mp3">
 </audio> 
 
 
@@ -1475,7 +1475,7 @@ Rin
 	</div>
 
 		<div id="audio-player-container" class="sixth">
-			<audio>
+			<audio id="myAudio6">
   <source src="assets/interviews/Pur·suit_Ericka&Ebony_final 3.27.42 PM.mp3"  type="audio/mp3">
 </audio> 
 
@@ -1893,7 +1893,7 @@ I told Ica a few nights ago I cried so hard I almost threw up. She reminded me o
 Invitation. <br>
 Always forthcoming.
 <br><br>
-Elle made links for us to listen to albums in their entirety: Minnie Riperton, Maxwell, one more I’m forgetting. Jessie & Auston gave me their apartment for a month as I transitioned from a 6 year home to the next place to my current home, my current life that feels so full and lush and warm and romantic and safe. Toni brought gifts to our first encounter. Alex and Kenya became friends who supported me in recording oral histories — conversations you can hear here. We’ve only met once and now they live in a place that used to be my home. I met Caroline 5 years ago at a Cafe Erzuile backyard birthday bashment. Lizette wrote every single line of code. Angel and Shira sat 8 feet from us at Auston’s 50th in Prospect Park. We waved and stared at each other with so much love. We shouted. We wore party hats. I got tangled between my mask, my hat, my glasses, and my hoops. It’s still not over. I wear a scent by Tatiana nearly every day. 
+Elle made links for us to listen to albums in their entirety: Minnie Riperton, Maxwell, one more I’m forgetting. Jessie & Auston gave me their apartment for a month as I transitioned from a 6 year home to the next place to my current home, my current life that feels so full and lush and warm and romantic and safe. Toni brought gifts to our first encounter. Alex & Kenya became friends who supported me in recording oral histories — conversations you can hear here. We’ve only met once and now they live in a place that used to be my home. I met Caroline 5 years ago at a Cafe Erzuile backyard birthday bashment. Lizette wrote every single line of code. Angel & Shira sat 8 feet from us at Auston’s 50th in Prospect Park. We waved and stared at each other with so much love. We shouted. We wore party hats. I got tangled between my mask, my hat, my glasses, and my hoops. It’s still not over. I wear a scent by Tatiana nearly every day. 
 <br><br>
 Now, at home, I’m loved in the fullest way.
 <br><br>
@@ -1963,71 +1963,90 @@ Naima
 				<h3 id="index-titles" class="interviews-title"> Interviews </h3>
 					<div id="description-interviews">
 						<p id="interviews">
-						"Pistachio" by Angel & Shira
+						"Pistachio" with Angel & Shira
 						<br> </p>
 		<div id="index-interview-player-container" class="bringtotop">
 
 			<button id="index-interview-player">
-				<div id="index-play-button-container" onclick="togglePlay()"></div>
+				<div id="index-play-button-container" class="one" onclick="togglePlay()"> AHHHHH 
+					<div id="index-play-button-img" class="one"> AHHHH </div>
+					<div id="index-pause-button-img" class="one"> AHHHH </div>
+				</div>
 				<div id="index-player-text"> <p id="index-player-text"> "Pistachio" </p> </div>
 				<div id="index-player-hr"> <hr> </div>
-				<div id="index-player-text"> <p id="index-player-text"> Angel and Shira </p> </div>
+				<div id="index-player-text"> <p id="index-player-text"> Angel & Shira </p> </div>
 			</button>
-		</div>						
+		</div>		
+
 						<p id="interviews">	
-						"Hood Shaman" by Kenya & Alexandra
+						"Hood Shaman" with Kenya & Alexandra
 						<br> </p>
 		<div id="index-interview-player-container" class="bringtotop">	
 
 			<button id="index-interview-player">
-				<div id="index-play-button-container" onclick="togglePlay2()"></div>
+				<div id="index-play-button-container" class="two" onclick="togglePlay2()"> AHHHHH 
+					<div id="index-play-button-img" class="two"> AHHHH </div>
+					<div id="index-pause-button-img" class="two"> AHHHH </div>
+				</div>
 				<div id="index-player-text"> <p id="index-player-text"> "Hood Shaman" </p> </div>
-				<div id="index-player-hr"> <hr> </div>
+				<div id="index-player-hr" class="k-a"> <hr> </div>
 				<div id="index-player-text"> <p id="index-player-text"> Kenya & Alexandra </p> </div>
 			</button>
 		</div>							
 						<p id="interviews">
-						"Tickle" by Kiyanna & Jannah
+						"Tickle" with Kiyanna & Jannah
 						<br> </p>
 		<div id="index-interview-player-container" class="bringtotop">	
 
 			<button id="index-interview-player">
-				<div id="index-play-button-container" onclick="togglePlay3()"></div>
+				<div id="index-play-button-container" class="three" onclick="togglePlay3()"> AHHHHH 
+					<div id="index-play-button-img" class="three"> AHHHH </div>
+					<div id="index-pause-button-img" class="three"> AHHHH </div>
+				</div>
 				<div id="index-player-text"> <p id="index-player-text"> "Tickle" </p> </div>
 				<div id="index-player-hr"> <hr> </div>
 				<div id="index-player-text"> <p id="index-player-text"> Kiyanna & Jannah </p> </div>
 			</button>
 		</div>						
 						<p id="interviews">
-						"Sensuality Map" by Jesse & Auston
+						"Sensuality Map" with Jesse & Auston
 						<br> </p>
 		<div id="index-interview-player-container" class="bringtotop">	
 
 			<button id="index-interview-player">
-				<div id="index-play-button-container" onclick="togglePlay4()"></div>
+				<div id="index-play-button-container" class="four" onclick="togglePlay4()"> AHHHHH 
+					<div id="index-play-button-img" class="four"> AHHHH </div>
+					<div id="index-pause-button-img" class="four"> AHHHH </div>
+				</div>
 				<div id="index-player-text"> <p id="index-player-text"> "Sensuality Map" </p> </div>
 				<div id="index-player-hr"> <hr> </div>
 				<div id="index-player-text"> <p id="index-player-text"> Jesse & Auston </p> </div>
 			</button>
 		</div>							
 						<p id="interviews">
-						"Sacral Hold" by Rahel & Tatiana
+						"Sacral Hold" with Rahel & Tatiana
 						<br> </p>
 		<div id="index-interview-player-container" class="bringtotop">	
 
 			<button id="index-interview-player">
-				<div id="index-play-button-container" onclick="togglePlay5()"></div>
+				<div id="index-play-button-container" class="five" onclick="togglePlay5()"> AHHHHH 
+					<div id="index-play-button-img" class="five"> AHHHH </div>
+					<div id="index-pause-button-img" class="five"> AHHHH </div>
+				</div>
 				<div id="index-player-text"> <p id="index-player-text"> "Sacral Hold" </p> </div>
 				<div id="index-player-hr"> <hr> </div>
 				<div id="index-player-text"> <p id="index-player-text"> Rahel & Tatiana </p> </div>
 			</button>
 		</div>						
 						<p id="interviews">
-						"It Blooms" by Ericka & Ebony </p>
+						"It Blooms" with Ericka & Ebony </p>
 		<div id="index-interview-player-container" class="bringtotop">	
 
 			<button id="index-interview-player">
-				<div id="index-play-button-container" onclick="togglePlay6()"></div>
+				<div id="index-play-button-container" class="six" onclick="togglePlay6()"> AHHHHH 
+					<div id="index-play-button-img" class="six"> AHHHH </div>
+					<div id="index-pause-button-img" class="six"> AHHHH </div>
+				</div>
 				<div id="index-player-text"> <p id="index-player-text"> "It Blooms" </p> </div>
 				<div id="index-player-hr"> <hr> </div>
 				<div id="index-player-text"> <p id="index-player-text"> Ericka & Ebony </p> </div>
@@ -2096,7 +2115,7 @@ Rin
 
 <span id="spacing-fix-2"> If you want to walk, I'll hold your hand until we get there. </span> </div></div>
 						<p id="texts"> 
-					<a href="assets/images/++ A Love Letter ++ copy.jpg" download target="_blank"> *Download full letter here* </a></p>
+					<a href="assets/images/++ A Love Letter ++ copy.jpg" download target="_blank"> *Download full text here* </a></p>
 						<br><br>
 						<p id="texts">
 						a cento for contact sub rosa by Ica </p>
@@ -2115,7 +2134,7 @@ Rin
 			</div>
 		</div>
 					<p id="texts"> 
-					<a href="assets/highlights/FINALmostlytextSHARE_secret_erotica-ica_sadagat.pdf" download target="_blank"> *Download full letter here* </a></p>
+					<a href="assets/highlights/FINALmostlytextSHARE_secret_erotica-ica_sadagat.pdf" download target="_blank"> *Download full text here* </a></p>
 
 					<p id="texts">
 						Self-Love Tip for Remote Working, Rosemary Reyes </p>
@@ -2130,12 +2149,12 @@ Rin
 			</div>
 		</div>
 					<p id="texts"> 
-					<a href="assets/highlights/Self-Love Remote Work .pdf" download target="_blank"> *Download full letter here* </a></p>
+					<a href="assets/highlights/Self-Love Remote Work .pdf" download target="_blank"> *Download full text here* </a></p>
 
 				</div>
 			</div>
 			<div id="half">
-				<h3 id="index-titles" class="channel-title"> <a class="channel-title" href="https://locallygrown.tv/channels" target="_blank"> TV Channel </a> </h3>
+				<h3 id="index-titles" class="channel-title"> <a class="channel-title" href="https://locallygrown.tv/channels" target="_blank"> Locally Grown TV </a> </h3>
 				<div id="description"></div>
 			</div>
 			</div>
