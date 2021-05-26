@@ -8707,7 +8707,7 @@ p#index-player-text {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 20px;
+    margin-top: 0px;
     scroll-behavior: smooth;
     z-index: 5;
 }
@@ -8890,7 +8890,7 @@ video.fillWidth {
 #index-img-container.one {
 	position: relative;
 /*	left: 20vh;*/ 
-	top: -64vh;
+	top: -62vh;
 	left: 10vw;
 	height: 50%;
 	width: 80%;
@@ -8912,13 +8912,13 @@ video.fillWidth {
   top: -62vh;
   left: 5vw;
   height: 10%;
-  width: 100%;
+  width: 82%;
   color: rgba(0, 255, 113);
   z-index: 100;
   border-radius: 20px;
   border: 1px solid rgba(0, 255, 113);;
   text-align: center;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 #index-img-container.two {
