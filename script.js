@@ -1161,10 +1161,3 @@ $('#index-play-button-container.six').on('click', function() {
 
 
 
-
-
-
-
-
-
-
