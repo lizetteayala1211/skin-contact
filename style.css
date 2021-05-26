@@ -374,7 +374,7 @@ button#index-button {
 #full-bleed.second {
 	flex-direction: column;
 	background-image: url("assets/images/4.JPG"); /* The image used */
-  	background-position: 32% 83.5%; /* Center the image */
+  	background-position: 30% 82%; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover;
 }
@@ -570,10 +570,10 @@ div#seekObj1:active {
   align-self: center;
   background: rgba(6, 74, 38);
   width: 40%;
-  height: 8%;
+  height: 6%;
 /*  position: relative;*/
   cursor: pointer;
-  box-shadow: 0 2px 10px 0 #0008;
+/*  box-shadow: 0 2px 10px 0 #0008;*/
 /*  border-radius: 20%;*/
 }
 
@@ -692,7 +692,7 @@ div#seekObj1:active {
   width: 0;
   height: 15px;
   background: white;
-  box-shadow: 0 0 20px #000a;
+/*  box-shadow: 0 0 20px #000a;*/
   transition: 0.25s;
 }
 
@@ -713,11 +713,11 @@ div#seekObj1:active {
 	height: 30%;
 	width: 80%;
 	position: absolute;
-    top: 1270vh;
-    left: 0;
-    margin-left: 120px;
-    align-self: center;	
-    z-index: 200;	
+  top: 1270vh;
+  left: 0;
+  margin-left: 120px;
+  align-self: center;	
+  z-index: 200;	
 }
 
 .audio-player-2 {
@@ -742,10 +742,10 @@ div#seekObj1:active {
   align-self: center;
   background: rgba(6, 74, 38);
   width: 40%;
-  height: 8%;
+  height: 6%;
 /*  position: relative;*/
   cursor: pointer;
-  box-shadow: 0 2px 10px 0 #0008;
+/*  box-shadow: 0 2px 10px 0 #0008;*/
 /*  border-radius: 20%;*/
 }
 
@@ -777,7 +777,7 @@ div#seekObj1:active {
 
 #audio-player-container.second > div.audio-player-2 > div.controls-2 > div.play-container-2 {
 	width: 10%;
-    height: 100%;
+  height: 100%;
 }
 
 .audio-player-2 .controls-2 .toggle-play-2.play2 {
@@ -790,10 +790,10 @@ div#seekObj1:active {
   border-left: 13px solid white;*/
   transform: scale(3.1);
 /*  background: rgba(6, 74, 38);*/
-    background-image: url("assets/icons/greenplaybutton.png"); 
-  	background-position: center;
-  	background-repeat: no-repeat; 
-  	background-size: contain; 
+  background-image: url("assets/icons/greenplaybutton.png"); 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: contain; 
 }
 .audio-player-2 .controls-2 .toggle-play-2.play2:hover {
 /*  transform: scale(1.1);*/
@@ -806,10 +806,10 @@ div#seekObj1:active {
   position: relative;
   transform: scale(3.7);
 /*  background: rgba(6, 74, 38);*/
-    background-image: url("assets/icons/greenpausebutton.png"); 
-  	background-position: center;
-  	background-repeat: no-repeat; 
-  	background-size: contain;   
+  background-image: url("assets/icons/greenpausebutton.png"); 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: contain;   
 }
 .audio-player-2 .controls-2 .toggle-play-2.pause2:before {
   position: absolute;
@@ -860,7 +860,7 @@ div#seekObj1:active {
   width: 0;
   height: 15px;
   background: white;
-  box-shadow: 0 0 20px #000a;
+/*  box-shadow: 0 0 20px #000a;*/
   transition: 0.25s;
 }
 .audio-player-2 .controls-2 .volume-container-2 .volume-slider-2 .volume-percentage-2 {
@@ -879,11 +879,11 @@ div#seekObj1:active {
 	height: 30%;
 	width: 80%;
 	position: absolute;
-    top: 2780vh;
-    left: 0;
-    margin-left: 120px;
-    align-self: center;
-    z-index: 200;	
+  top: 2780vh;
+  left: 0;
+  margin-left: 120px;
+  align-self: center;
+  z-index: 200;	
 }
 
 .audio-player-3 {
@@ -908,10 +908,10 @@ div#seekObj1:active {
   align-self: center;
   background: rgba(255,219,202,255);
   width: 40%;
-  height: 8%;
+  height: 6%;
 /*  position: relative;*/
   cursor: pointer;
-  box-shadow: 0 2px 10px 0 #0008;
+/*  box-shadow: 0 2px 10px 0 #0008;*/
 /*  border-radius: 20%;*/
 }
 
@@ -943,7 +943,7 @@ div#seekObj1:active {
 
 #audio-player-container.third > div.audio-player-3 > div.controls-3 > div.play-container-3 {
 	width: 10%;
-    height: 100%;
+  height: 100%;
 }
 
 .audio-player-3 .controls-3 .toggle-play-3.play {
@@ -956,10 +956,10 @@ div#seekObj1:active {
   border-left: 13px solid white;*/
   transform: scale(3.1);
 /*  background: rgba(6, 74, 38);*/
-    background-image: url("assets/icons/pinkplaybutton.png"); 
-  	background-position: center;
-  	background-repeat: no-repeat; 
-  	background-size: contain; 
+  background-image: url("assets/icons/pinkplaybutton.png"); 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: contain; 
 }
 .audio-player-3 .controls-3 .toggle-play-3.play:hover {
 /*  transform: scale(1.1);*/
@@ -972,10 +972,10 @@ div#seekObj1:active {
   position: relative;
   transform: scale(3.7);
 /*  background: rgba(6, 74, 38);*/
-    background-image: url("assets/icons/pinkpausebutton.png"); 
-  	background-position: center;
-  	background-repeat: no-repeat; 
-  	background-size: contain;   
+  background-image: url("assets/icons/pinkpausebutton.png"); 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: contain;   
 }
 .audio-player-3 .controls-3 .toggle-play-3.pause:before {
   position: absolute;
@@ -1026,7 +1026,7 @@ div#seekObj1:active {
   width: 0;
   height: 15px;
   background: white;
-  box-shadow: 0 0 20px #000a;
+/*  box-shadow: 0 0 20px #000a;*/
   transition: 0.25s;
 }
 .audio-player-3 .controls-3 .volume-container-3 .volume-slider-3 .volume-percentage-3 {
@@ -1045,11 +1045,11 @@ div#seekObj1:active {
 	height: 30%;
 	width: 80%;
 	position: absolute;
-    top: 3310vh;
-    left: 0;
-    margin-left: 120px;
-    align-self: center;	
-    z-index: 200;	
+  top: 3310vh;
+  left: 0;
+  margin-left: 120px;
+  align-self: center;	
+  z-index: 200;	
 }
 
 .audio-player-4 {
@@ -1074,10 +1074,10 @@ div#seekObj1:active {
   align-self: center;
   background: rgba(6, 74, 38);
   width: 40%;
-  height: 8%;
+  height: 6%;
 /*  position: relative;*/
   cursor: pointer;
-  box-shadow: 0 2px 10px 0 #0008;
+/*  box-shadow: 0 2px 10px 0 #0008;*/
 /*  border-radius: 20%;*/
 }
 
@@ -1109,7 +1109,7 @@ div#seekObj1:active {
 
 #audio-player-container.fourth > div.audio-player-4 > div.controls-4 > div.play-container-4 {
 	width: 10%;
-    height: 100%;
+  height: 100%;
 }
 
 .audio-player-4 .controls-4 .toggle-play-4.play {
@@ -1122,10 +1122,10 @@ div#seekObj1:active {
   border-left: 13px solid white;*/
   transform: scale(3.1);
 /*  background: rgba(6, 74, 38);*/
-    background-image: url("assets/icons/greenplaybutton.png"); 
-  	background-position: center;
-  	background-repeat: no-repeat; 
-  	background-size: contain; 
+  background-image: url("assets/icons/greenplaybutton.png"); 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: contain; 
 }
 .audio-player-4 .controls-4 .toggle-play-4.play:hover {
 /*  transform: scale(1.1);*/
@@ -1192,7 +1192,7 @@ div#seekObj1:active {
   width: 0;
   height: 15px;
   background: white;
-  box-shadow: 0 0 20px #000a;
+/*  box-shadow: 0 0 20px #000a;*/
   transition: 0.25s;
 }
 .audio-player-4 .controls-4 .volume-container-4 .volume-slider-4 .volume-percentage-4 {
@@ -1240,10 +1240,10 @@ div#seekObj1:active {
   align-self: center;
   background: rgba(255,219,202,255);
   width: 40%;
-  height: 8%;
+  height: 6%;
 /*  position: relative;*/
   cursor: pointer;
-  box-shadow: 0 2px 10px 0 #0008;
+/*  box-shadow: 0 2px 10px 0 #0008;*/
 /*  border-radius: 20%;*/
 }
 
@@ -1358,7 +1358,7 @@ div#seekObj1:active {
   width: 0;
   height: 15px;
   background: white;
-  box-shadow: 0 0 20px #000a;
+/*  box-shadow: 0 0 20px #000a;*/
   transition: 0.25s;
 }
 .audio-player-5 .controls-5 .volume-container-5 .volume-slider-5 .volume-percentage-5 {
@@ -1406,10 +1406,10 @@ div#seekObj1:active {
   align-self: center;
   background: rgba(6, 74, 38);
   width: 40%;
-  height: 8%;
+  height: 6%;
 /*  position: relative;*/
   cursor: pointer;
-  box-shadow: 0 2px 10px 0 #0008;
+/*  box-shadow: 0 2px 10px 0 #0008;*/
 /*  border-radius: 20%;*/
 }
 
@@ -1524,7 +1524,7 @@ div#seekObj1:active {
   width: 0;
   height: 15px;
   background: white;
-  box-shadow: 0 0 20px #000a;
+/*  box-shadow: 0 0 20px #000a;*/
   transition: 0.25s;
 }
 .audio-player-6 .controls-6 .volume-container-6 .volume-slider-6 .volume-percentage-6 {
@@ -1575,7 +1575,7 @@ div#seekObj1:active {
   height: 8%;
 /*  position: relative;*/
   cursor: pointer;
-  box-shadow: 0 2px 10px 0 #0008;
+/*  box-shadow: 0 2px 10px 0 #0008;*/
 /*  border-radius: 20%;*/
 }
 
@@ -1690,7 +1690,7 @@ div#seekObj1:active {
   width: 0;
   height: 15px;
   background: white;
-  box-shadow: 0 0 20px #000a;
+/*  box-shadow: 0 0 20px #000a;*/
   transition: 0.25s;
 }
 .audio-player-7 .controls-7 .volume-container-7 .volume-slider-7 .volume-percentage-7 {
@@ -1768,7 +1768,7 @@ section#sixth {
     z-index: 9;
 /*    background-color: blue;*/
     position: relative;
-    right: 18vw;
+    right: 19vw;
 /*    display: flex;
     flex-direction: row;
     justify-content: flex-end;*/
@@ -1797,7 +1797,7 @@ section#sixth {
 	transform: rotate(180deg);
 	position: relative;
 /*	right: 8vw;*/
-	left: 140px;
+	left: 170px;
 	top: 0vh;
 }
 
@@ -2178,7 +2178,7 @@ section#ninth {
     z-index: 9;
 /*    background-color: blue;*/
     position: relative;
-    right: 18vw;
+    right: 19vw;
 /*    display: flex;
     flex-direction: row;
     justify-content: flex-end;*/
@@ -2207,7 +2207,7 @@ section#ninth {
 	transform: rotate(180deg);
 	position: relative;
 /*	right: 8vw;*/
-	left: 140px;
+  left: 170px;
 	top: 0vh;
 /*	z-index: 30;*/
 }
@@ -2271,7 +2271,7 @@ section#ninth {
 
 #highlight-copy.one {
 /*	margin-top: 5px;*/
-	font-family: "Old Standard TT-Italic";
+/*	font-family: "Old Standard TT-Italic";*/
 /*   border: 1px solid green; */
 }
 
@@ -2623,7 +2623,7 @@ div#seekObj2:active {
   	z-index: 8;
 }
 
-#horizontal-text-container {
+#horizontal-text-container.first {
 	height: 10%;
 	width: 90%;
 /*	background-color: yellow;*/
@@ -3114,9 +3114,9 @@ div#seekObj2:active {
 
 #square.left.twentieth {
 	background-image: url("assets/squares/secondsection/Asset 84@114x.png"); /* The image used */
-  	background-position: bottom; /* Center the image */
-  	background-repeat: no-repeat; /* Do not repeat the image */
-  	background-size: cover; /* Resize the background image */
+  background-position: 10% 87%; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image */
 	border-top: 1px solid rgba(0, 255, 113);
 	border-bottom: 1px solid rgba(0, 255, 113);
 }
@@ -3680,7 +3680,7 @@ div#seekObj2:active {
     z-index: 9;
 /*    background-color: blue;*/
     position: relative;
-    right: 18vw;
+    right: 19vw;
 /*    display: flex;
     flex-direction: row;
     justify-content: flex-end;*/
@@ -3709,7 +3709,7 @@ div#seekObj2:active {
 	transform: rotate(180deg);
 	position: relative;
 /*	right: 8vw;*/
-	left: 140px;
+  left: 170px;
 	top: 0vh;
 /*	z-index: 30;*/
 }
@@ -3801,7 +3801,7 @@ section#twenty-fifth {
   align-items: flex-end;
   align-self: flex-end;
   position: absolute;
-  top: 2430vh;
+  top: 2432vh;
   left: .7vw;
   height: 48.4vh;
   width: 98.4vw;
@@ -3838,7 +3838,7 @@ section#twenty-fifth {
 }
 
 #highlight-copy.two {
-	margin-top: 20px;
+/*	margin-top: 20px;*/
 }
 
 #highlight.two {
@@ -4602,7 +4602,7 @@ div#seekObj3:active {
     z-index: 9;
 /*    background-color: blue;*/
     position: relative;
-    right: 18vw;
+    right: 19vw;
 /*    display: flex;
     flex-direction: row;
     justify-content: flex-end;*/
@@ -4631,7 +4631,7 @@ div#seekObj3:active {
 	transform: rotate(180deg);
 	position: relative;
 /*	right: 8vw;*/
-	left: 140px;
+  left: 170px;
 	top: 0vh;
 /*	z-index: 30;*/
 }
@@ -5708,13 +5708,13 @@ div#seekObj5:active {
 }
 
 #highlight-copy.three {
-	font-style: italic;
+/*	font-style: italic;*/
 	height: 10%;
 	width: 100%;
 	text-align: center;
 	color: rgba(0, 255, 113);
 	margin-top: 0px;
-	font-family: "Old Standard TT-Italic";
+/*	font-family: "Old Standard TT-Italic";*/
   /*  border: 1px solid green;*/
 }
 
@@ -6255,7 +6255,7 @@ div#seekObj5:active {
     z-index: 9;
 /*    background-color: blue;*/
     position: relative;
-    right: 18vw;
+    right: 19vw;
 /*    display: flex;
     flex-direction: row;
     justify-content: flex-end;*/
@@ -6284,7 +6284,7 @@ div#seekObj5:active {
 	transform: rotate(180deg);
 	position: relative;
 /*	right: 8vw;*/
-	left: 140px;
+  left: 170px;
 	top: 0vh;
 /*	z-index: 30;*/
 }
@@ -6980,7 +6980,7 @@ button#interview-player.six {
     z-index: 9;
 /*    background-color: blue;*/
     position: relative;
-    right: 18vw;
+    right: 19vw;
 /*    display: flex;
     flex-direction: row;
     justify-content: flex-end;*/
@@ -7009,7 +7009,7 @@ button#interview-player.six {
 	transform: rotate(180deg);
 	position: relative;
 /*	right: 8vw;*/
-	left: 140px;
+  left: 170px;
 	top: 0vh;
 /*	z-index: 30;*/
 }
@@ -7428,9 +7428,9 @@ font-family: "Old Standard TT-Regular";
 	left: 32.8vw;
 /*	top: 5642vh;*/
 /*    left: 430px;*/
-    z-index: 10;
+  z-index: 10;
 /*    border: 1px solid yellow;*/
-font-family: "Old Standard TT-Regular";
+/*font-family: "Old Standard TT-Regular";*/
 }
 
 #highlight-copy.four {
@@ -7439,7 +7439,7 @@ font-family: "Old Standard TT-Regular";
 	text-align: center;
 	color: rgba(0, 255, 113);
 	margin-top: 0px;
-	font-family: "Old Standard TT-Italic";
+/*	font-family: "Old Standard TT-Italic";*/
 /*  border: 1px solid green;*/
 }
 
@@ -8338,16 +8338,32 @@ p#index-player-text {
 	text-decoration: none;
 }
 
-/* Large screens ----------- */
+/* Large screens -----------------------------------------------------------  */
 @media only screen  and (min-width:1440px) {
 /* Styles */
+
+#full-bleed {
+    background-image: url(assets/images/4.JPG);
+    background-position: 30% 22%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #full-bleed.second {
     flex-direction: column;
     background-image: url(assets/images/4.JPG);
-    background-position: 40% 93.5%;
+    background-position: 40% 100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#square.two.fourth {
+    border-right: 1px solid rgba(6, 74, 38);
+    background-color: none;
+    background-image: url(assets/textures/Texture3.png);
+    background-position: 40% 5%;
+    background-repeat: no-repeat;
+    background-size: 200%;
 }
 
 #square.three.fourth {
@@ -8557,11 +8573,106 @@ p#index-player-text {
     z-index: 9;
 }
 
+/* Index audio buttons */ 
+
+#index-play-button-container {
+    height: 6vh;
+    width: 10%;
+    align-content: flex-start;
+    /* align-self: flex-start; */
+    align-items: flex-start;
+    color: transparent;
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+}
+
+/* Question areas */ 
+
+#questions-content-container.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    position: absolute;
+    top: 1894vh;
+    left: .6vw;
+    height: 96.6vh;
+    width: 98.7vw;
+    background-color: transparent;
+    /* border: 1px solid red; */
+}
+
+#questions-content-container.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    position: absolute;
+    top: 3448vh;
+    left: .6vw;
+    height: 96.6vh;
+    width: 98.7vw;
+    background-color: transparent;
+    /* border: 1px solid red; */
+}
+
+#questions-content-container.fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    position: absolute;
+    top: 4177vh;
+    left: .6vw;
+    height: 96.6vh;
+    width: 98.7vw;
+    background-color: transparent;
+    /* border: 1px solid red; */
+}
+
+/* Highlight containers */ 
+
+#highlight-content-container-two {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    position: absolute;
+    top: 2430vh;
+    left: .7vw;
+    height: 48.4vh;
+    width: 98.4vw;
+    /* border: 1px solid red; */
+}
+
+
+#highlight-content-container-three {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4031.5vh;
+    left: .7vw;
+    height: 48.4vh;
+    width: 98.4vw;
+    /* border: 1px solid red; */
+}
+
+
 }
 
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px) {
 
 /* MOBILE CONTENT ONLY // TABLET & UP HIDDEN */	
 
@@ -8587,7 +8698,7 @@ p#index-player-text {
 }
 
 #skincontact-logo-container {
-    height: 20%;
+    height: 30%;
     width: 90%;
     position: fixed;
     top: 0;
@@ -8595,8 +8706,8 @@ p#index-player-text {
     background-image: url(assets/icons/Skin Contact - Logo.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    margin-top: 40px;
+    background-size: contain;
+    margin-top: 20px;
     scroll-behavior: smooth;
     z-index: 5;
 }
@@ -8611,7 +8722,7 @@ p#index-player-text {
 #first-half {
 	height: 100vh;
 	width: 25vh;
-	border: 1px solid rgba(0, 255, 113);
+/*	border: 1px solid rgba(0, 255, 113);*/
 	border-right: none;
 }
 
@@ -8764,7 +8875,7 @@ video.fillWidth {
 #index-video-container-2 {
 	height: 100vh;
 	width: 100%;
-    	border: 1px solid rgba(0, 255, 113);
+  border: 1px solid rgba(0, 255, 113);
     	overflow: hidden;
     	background-color: black;
 }
@@ -8779,7 +8890,7 @@ video.fillWidth {
 #index-img-container.one {
 	position: relative;
 /*	left: 20vh;*/ 
-	top: -55vh;
+	top: -64vh;
 	left: 10vw;
 	height: 50%;
 	width: 80%;
@@ -8789,6 +8900,25 @@ video.fillWidth {
     	background-size: cover;
     	z-index: 100;
 
+}
+
+#index-info-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  position: relative;
+/*  left: 20vh;*/ 
+  top: -62vh;
+  left: 5vw;
+  height: 10%;
+  width: 100%;
+  color: rgba(0, 255, 113);
+  z-index: 100;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 255, 113);;
+  text-align: center;
+  font-size: 13px;
 }
 
 #index-img-container.two {
