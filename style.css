@@ -8811,6 +8811,7 @@ border: 1px solid rgba(0, 255, 113);
 }
 
 #container.fourth {
+	display: none;
 	border-top: none;
 	background-image: url("assets/mobile-images/Texture1.png"); /* The image used */
   	background-position: center; /* Center the image */
