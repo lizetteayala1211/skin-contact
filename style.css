@@ -8707,7 +8707,7 @@ p#index-player-text {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 0px;
+    margin-top: -10px;
     scroll-behavior: smooth;
     z-index: 5;
 }
