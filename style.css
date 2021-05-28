@@ -5845,7 +5845,7 @@ div#seekObj5:active {
 }
 
 #square.right.seventy {
-	background-image: url("assets/squares/thirdsection/Asset 37@114x.png"); /* The image used */
+	background-image: url("assets/squares/thirdsection/Asset 37FINALpng"); /* The image used */
   	background-position: top; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image */
@@ -8636,6 +8636,22 @@ p#index-player-text {
     background-color: transparent;
     /* border: 1px solid red; */
 }
+	
+#questions-content-container.fifth {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    position: absolute;
+    top: 4857vh;
+    left: .6vw;
+    height: 96.6vh;
+    width: 98.7vw;
+    background-color: transparent;
+    /* border: 1px solid red; */
+}	
 
 /* Highlight containers */ 
 
