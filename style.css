@@ -3026,7 +3026,7 @@ div#seekObj2:active {
 #portrait.four {
 	width: 100%;
 	height: 100%;
-	background-image: url("assets/portraits/Asset 1@115x.png"); /* The image used */
+	background-image: url("assets/portraits/Shannon_Pur·suit_March12.jpg"); /* The image used */
   	background-position: center; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: contain; /* Resize the background image */
@@ -4611,7 +4611,7 @@ div#seekObj3:active {
 #portrait.eight {
 	width: 100%;
 	height: 100%;
-	background-image: url("assets/portraits/Asset 1@116x.png"); /* The image used */
+	background-image: url("assets/portraits/Jessie&Auston_Sept4.jpg"); /* The image used */
   	background-position: center; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: contain; /* Resize the background image */
@@ -5139,7 +5139,7 @@ button#interview-player.four {
 #portrait.nine {
 	width: 100%;
 	height: 100%;
-	background-image: url("assets/portraits/Asset 4@117x.png"); /* The image used */
+	background-image: url("assets/portraits/Ica_Pur·suit_Sept4.jpg"); /* The image used */
   	background-position: center; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: contain; /* Resize the background image */
@@ -6989,7 +6989,7 @@ button#interview-player.six {
 #portrait.fourteen {
 	width: 100%;
 	height: 100%;
-	background-image: url("assets/portraits/Asset 2@118x.png"); /* The image used */
+	background-image: url("assets/portraits/Janelle_Pur·suit_March12.jpg"); /* The image used */
   	background-position: center; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: contain; /* Resize the background image */
@@ -8352,7 +8352,7 @@ p#index-player-text {
 #full-bleed.second {
     flex-direction: column;
     background-image: url(assets/images/4.JPG);
-    background-position: 40% 100%;
+    background-position: 40% 81.5%;
     background-repeat: no-repeat;
     background-size: cover;
 }
