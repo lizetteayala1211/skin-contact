@@ -716,6 +716,9 @@ $(document).ready(function() {
     	    $(window).scroll(function () {
         var scrollval = $(window).scrollTop();      
 
+        if (scrollval >= 50) {
+            $("#skincontact-logo-container").css("opacity", 1);
+        }
         if (scrollval >= 500) {
             $("#skincontact-logo-container").css("opacity", 0);
         }
@@ -1150,14 +1153,3 @@ $('#index-play-button-container.six').on('click', function() {
     $("#").toggle();
   });
 });
-
-	
-
-
-
-
-
-
-
-
-
