@@ -1,3 +1,11 @@
+// Try to mute all video and audio elements on the page
+function mutePage() {
+    var elems = document.querySelectorAll("video, audio");
+
+    [].forEach.call(elems, function(elem) { muteMe(elem); });
+}
+
+
 // audio one
 
   const audioPlayer = document.querySelector(".audio-player");
