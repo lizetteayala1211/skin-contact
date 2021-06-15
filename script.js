@@ -950,28 +950,6 @@ function toggleFullScreen() {
   }
 }
 
-// playlists 
-
-window.open(
-  'https://open.spotify.com/playlist/3LoRBtgXSlwvpiROHRcxv6?si=0574ac986f4c4c46&nd=1',
-  '_blank' // <- This is what makes it open in a new window.
-);
-
-  window.open(
-  'https://open.spotify.com/playlist/5mtffDvFfCrMaBlz8UFdOM?si=ac95555d01be43eb&nd=1',
-  '_blank' // <- This is what makes it open in a new window.
-);
-
-  window.open(
-  'https://open.spotify.com/playlist/1GOJMmjfkv6qhnboHBHCnj?si=59026d6c9ca14602&nd=1',
-  '_blank' // <- This is what makes it open in a new window.
-);
-
-  window.open(
-  'https://open.spotify.com/playlist/3U41OIYACDl8CBkFdM7GIy?si=fc56405e7ec84906&nd=1',
-  '_blank' // <- This is what makes it open in a new window.
-); 
-
 // index interviews js 
 
 
